@@ -8,7 +8,7 @@
 <h1 style="font-size:42px; font-weight:800; margin-bottom:10px;">🚖 Uber Ride Demand Prediction</h1>
 
 <p style="font-size:18px; max-width:850px; line-height:1.6;">
-A machine-learning powered system that forecasts **high-demand pickup zones** across New York City — enabling ride-hailing drivers to plan smarter, reduce idle time, and reach customers faster.  
+A machine-learning powered system that forecasts...high-demand pickup zones...across New York City — enabling ride-hailing drivers to plan smarter, reduce idle time, and reach customers faster.  
 <br/><br/>
 This project can serve as a powerful **startup-style solution** where drivers see exactly *where demand is rising*, ensuring more earnings for drivers and less waiting time for customers.
 </p>
@@ -106,17 +106,17 @@ This project replicates how modern ride-hailing companies optimize supply & dema
 ├── models                 <- Trained and serialized models, predictions, and summaries.
 │
 ├── notebooks              <- Jupyter Notebooks.
-│                             Naming convention: number + initials + short description  
-│                             e.g., `1.0-jqp-initial-data-exploration.ipynb`
+│                               
+│                             
 │
 ├── references             <- Data dictionaries, manuals, and reference materials.
 │
 ├── reports                <- Generated analysis outputs (HTML, PDF, LaTeX, etc.)
 │   └── figures            <- Generated figures and graphics used in reporting.
 │
-├── requirements.txt       <- Reproducible environment dependencies (`pip freeze`).
+├── requirements.txt       <- Reproducible environment dependencies 
 │
-├── setup.py               <- Makes the project pip-installable (`pip install -e .`)
+├── setup.py               <- Makes the project pip-installable 
 │
 ├── src                    <- Source code for this project.
 │   ├── __init__.py        <- Makes src a Python package.
@@ -140,9 +140,8 @@ This project replicates how modern ride-hailing companies optimize supply & dema
 
 <hr/>
 
-<h2 style="font-size:32px; font-weight:800; color:#1f6feb;">🔍 How the System Works  
-<span style="font-size:18px; font-weight:400; color:#999;">(Detailed, simple-to-understand explanation)</span>
-</h2>
+<h2 style="font-size:28px; font-weight:700;" align="center">🔍 How the System Works 
+
 
 <h3 style="font-size:22px; font-weight:700;">1️⃣ Collecting & Understanding Data</h3>
 <p style="font-size:16px; line-height:1.6;">
