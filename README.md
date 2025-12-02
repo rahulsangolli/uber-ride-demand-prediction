@@ -3,92 +3,139 @@
        alt="Banner" width="100%" style="max-height: 240px; object-fit: cover; display: block; margin: 0 auto;">
 </p>
 
-
-<h1 align="center">Uber Ride Demand Prediction</h1>
-
-<p align="center">
-  A complete end-to-end machine learning project forecasting hourly ride demand across New York City.
-</p>
 <div align="center">
 
 <h1 style="font-size:42px; font-weight:800; margin-bottom:10px;">🚖 Uber Ride Demand Prediction</h1>
 
-<p style="font-size:18px; max-width:800px;">
-A complete machine-learning project that predicts hourly Uber ride demand across New York City using historical patterns, regional clustering, and advanced feature engineering.
+<p style="font-size:18px; max-width:850px; line-height:1.6;">
+A machine-learning powered system that forecasts **high-demand pickup zones** across New York City — enabling ride-hailing drivers to plan smarter, reduce idle time, and reach customers faster.  
+<br/><br/>
+This project can serve as a powerful **startup-style solution** where drivers see exactly *where demand is rising*, ensuring more earnings for drivers and less waiting time for customers.
 </p>
+
 </div>
 
 <hr/>
 
-<h2 style="font-size:28px; font-weight:700;">📌 Overview</h2>
+<h2 style="font-size:28px; font-weight:700;" align="center">📌 Overview</h2>
 
 <p style="font-size:16px; line-height:1.6;">
-This project focuses on forecasting how many Uber rides people are likely to book at a specific <b>date</b>, <b>hour</b>, and <b>region</b> inside NYC.  
-The primary goal is simple:
+This system predicts how many Uber rides will be requested at a specific <b>date</b>, <b>hour</b>, and <b>NYC region</b>.  
 <br/><br/>
-<b style="font-size:18px;">Predict future demand so drivers can be placed in the right areas at the right time.</b>
-<br/>
-This helps reduce passenger waiting time and improves driver efficiency.
+
+It is designed with a simple mission:
+<br/><br/>
+
+<p align="center">
+<b style="font-size:20px;">✔️ Place drivers exactly where the next ride request is likely to happen.</b>
+</p>
+
+<p style="font-size:16px; line-height:1.6;">
+By forecasting real-time demand hotspots:
+<ul style="font-size:16px; line-height:1.7;">
+  <li>Drivers maximize earnings by staying in high-demand areas</li>
+  <li>Customers experience minimal wait-time for pickups</li>
+  <li>Ride platforms achieve smoother traffic flow and reduced surge pricing</li>
+</ul>
+
+This project replicates how modern ride-hailing companies optimize supply & demand — but makes it accessible to anyone.
 </p>
 
 <hr/>
 
-<h2 style="font-size:28px; font-weight:700;">🧠 Tech Stack</h2>
+<h2 style="font-size:28px; font-weight:700;" align="center">🧠 Tech Stack</h2>
 
 <ul style="font-size:16px; line-height:1.8;">
 <li><b>Languages:</b> Python</li>
 <li><b>Libraries:</b> Pandas, NumPy, Scikit-Learn</li>
 <li><b>Visualization:</b> Plotly</li>
 <li><b>Modeling:</b> RandomForest, XGBoost</li>
-<li><b>Frontend:</b> Streamlit</li>
+<li><b>App Framework:</b> Streamlit</li>
 <li><b>Data Versioning:</b> DVC</li>
 </ul>
 
 <hr/>
 
-<h2 style="font-size:28px; font-weight:700;">⭐ Key Features</h2>
+<h2 style="font-size:28px; font-weight:700;" align="center">⭐ Key Features</h2>
 
 <ul style="font-size:16px; line-height:1.8;">
-<li><b>Hourly Ride Prediction</b> — enter a date & hour to estimate demand instantly.</li>
-<li><b>Region-wise Forecasting</b> — NYC divided into meaningful zones using clustering.</li>
-<li><b>Interactive Map</b> — visualizes demand across regions.</li>
-<li><b>Smart Feature Engineering</b> — transforms raw timestamps into powerful signals.</li>
-<li><b>Clean Modular Pipeline</b> — ingestion → features → model training → evaluation.</li>
+<li><b>Hourly Ride Prediction</b> — estimate demand instantly for any selected date & hour.</li>
+<li><b>Region-wise Demand Forecasting</b> — NYC divided into ML-based clusters.</li>
+<li><b>Interactive Map Visualization</b> — heatmap-based demand insights.</li>
+<li><b>Feature-Rich Pipeline</b> — includes timestamp engineering & lag-based features.</li>
+<li><b>Clean Modular Architecture</b> — ingestion → feature engineering → training → prediction.</li>
 </ul>
 
 <hr/>
 
-<h2 style="font-size:28px; font-weight:700;">🖼️ Application Screenshots</h2>
+<h2 style="font-size:28px; font-weight:700;" align="center">🖼️ Application Screenshots</h2>
 
-<h3 style="font-size:22px; font-weight:700;">1️⃣ Input Panel — Choose Date & Time</h3>
-<p style="font-size:16px;">Users select a specific date and hour. Demand varies heavily by time (office hours, weekends, etc.).</p>
+<h3 style="font-size:22px; font-weight:700;">1️⃣ Input Panel — Select Date & Time</h3>
+<p>Users choose the target date & hour for prediction.</p>
+<img src="https://raw.githubusercontent.com/rahulsangolli/uber-ride-demand-prediction/refs/heads/main/assets/f6f810aa-0f3f-4d18-9006-ea0fa6e3a339.png" width="800px"/>
 
-<h3 style="font-size:22px; font-weight:700;">2️⃣ Predicted Demand Output</h3>
-<p style="font-size:16px;">Shows estimated number of ride requests expected at the chosen time.</p>
+<h3 style="font-size:22px; font-weight:700;">2️⃣ Predicted Ride Demand Output</h3>
+<p>Shows expected ride count for the selected input.</p>
+<img src="https://raw.githubusercontent.com/rahulsangolli/uber-ride-demand-prediction/refs/heads/main/assets/c4d21943-bc05-4fd4-a7af-09ebe8b6ca33.png" width="800px"/>
 
-<h3 style="font-size:22px; font-weight:700;">3️⃣ NYC Region Map</h3>
-<p style="font-size:16px;">Displays how NYC is divided into clusters based on demand patterns.</p>
+<h3 style="font-size:22px; font-weight:700;">3️⃣ NYC Region Clustering Map</h3>
+<p>Displays ML-created clusters used for region-wise forecasting.</p>
+<img src="https://raw.githubusercontent.com/rahulsangolli/uber-ride-demand-prediction/refs/heads/main/assets/407816c1-c83d-4a2b-8b7a-78e37fafcde8.png" width="800px"/>
 
-<h3 style="font-size:22px; font-weight:700;">4️⃣ Interactive Demand Map</h3>
-<p style="font-size:16px;">Visual heatmap showing which regions have high or low demand.</p>
+<h3 style="font-size:22px; font-weight:700;">4️⃣ Region-wise Demand Heatmap</h3>
+<p>Visualizes predicted ride intensity using an interactive NYC map.</p>
+<img src="https://raw.githubusercontent.com/rahulsangolli/uber-ride-demand-prediction/refs/heads/main/assets/1f5a7a8d-a1b8-426d-b958-0f322d6b4297.png" width="800px"/>
 
 <hr/>
 
-<h2 style="font-size:28px; font-weight:700;">🧩 Project Structure</h2>
+<h2 style="font-size:28px; font-weight:700;" align="center">🧩 Project Structure</h2>
 
 <pre style="background:#111; color:#fff; padding:20px; border-radius:8px; font-size:15px;">
-uber-ride-demand-prediction
+├── LICENSE
+├── Makefile               <- Makefile with commands like `make data` or `make train`
+├── README.md              <- The top-level README for developers using this project.
 │
-├── app.py                     # Streamlit app
-├── data                       # Raw, interim, processed datasets
-├── notebooks                  # EDA & model development
-├── src                        # Modular ML pipeline
-│   ├── data                   # Data ingestion
-│   ├── features               # Feature engineering
-│   └── models                 # Training & evaluation
-├── models                     # Saved model artifacts
-├── reports                    # Figures and visual outputs
-└── requirements.txt
+├── data
+│   ├── external           <- Data from third-party sources.
+│   ├── interim            <- Intermediate data that has been transformed.
+│   ├── processed          <- Final, canonical data sets for modeling.
+│   └── raw                <- Original, immutable data dump.
+│
+├── docs                   <- Sphinx documentation folder (auto-generated docs).
+│
+├── models                 <- Trained and serialized models, predictions, and summaries.
+│
+├── notebooks              <- Jupyter Notebooks.
+│                             Naming convention: number + initials + short description  
+│                             e.g., `1.0-jqp-initial-data-exploration.ipynb`
+│
+├── references             <- Data dictionaries, manuals, and reference materials.
+│
+├── reports                <- Generated analysis outputs (HTML, PDF, LaTeX, etc.)
+│   └── figures            <- Generated figures and graphics used in reporting.
+│
+├── requirements.txt       <- Reproducible environment dependencies (`pip freeze`).
+│
+├── setup.py               <- Makes the project pip-installable (`pip install -e .`)
+│
+├── src                    <- Source code for this project.
+│   ├── __init__.py        <- Makes src a Python package.
+│   │
+│   ├── data               <- Scripts to download or generate data.
+│   │   └── make_dataset.py
+│   │
+│   ├── features           <- Scripts to create features from raw data.
+│   │   └── build_features.py
+│   │
+│   ├── models             <- Model training and prediction scripts.
+│   │   ├── predict_model.py
+│   │   └── train_model.py
+│   │
+│   └── visualization      <- Scripts for exploratory and result visualizations.
+│       └── visualize.py
+│
+└── tox.ini                <- Configuration file for running tox tests.
+
 </pre>
 
 <hr/>
@@ -177,33 +224,27 @@ When the user selects a date, time, and region:
 
 <hr/>
 
-<h2 style="font-size:28px; font-weight:700;">📈 Results</h2>
+<h2 style="font-size:28px; font-weight:700;" align="center">📈 Results</h2>
 
-<ul style="font-size:16px; line-height:1.8;">
-<li>Model accurately captures hourly and regional demand variations.</li>
-<li>Predictions are reliable for scheduling drivers strategically.</li>
-<li>Interactive map makes insights easy for anyone to understand.</li>
+<ul style="font-size:16px; line-height:1.8; text-align:left; max-width:900px; margin:0 auto;">
+
+<li>Captures hourly + regional patterns accurately.</li>
+<li>Allows smarter driver placement strategies.</li>
+<li>Improves ride availability & reduces waiting time.</li>
 </ul>
 
 <hr/>
 
-<h2 style="font-size:28px; font-weight:700;">🔮 Future Enhancements</h2>
+<div align="center">
 
-<ul style="font-size:16px; line-height:1.8;">
-<li>Integrate real-time weather data</li>
-<li>Add holiday/event predictors</li>
-<li>Deep learning (LSTM, NN)</li>
-<li>Convert to real-time API</li>
-<li>Advanced analytics dashboard</li>
-</ul>
+<h2 style="font-size:32px; font-weight:800;">👨‍💻 Author</h2>
 
-<hr/>
-
-<h2 style="font-size:28px; font-weight:700;">📬 Contact</h2>
+<strong style="font-size:24px;">Rahul Sangolli</strong><br>
+<em style="font-size:16px;">Data Science & Machine Learning Practitioner</em>
 
 <p style="font-size:16px;">
-<b>Rahul Sangolli</b><br/>
-GitHub: your-link  
-<br/>
-LinkedIn: your-link  
+<a href="your-linkedin-url"><b>🌐 LinkedIn</b></a> &nbsp;|&nbsp;
+<a href="mailto:your-email"><b>✉️ Email</b></a> &nbsp;|&nbsp;
 </p>
+
+</div>
