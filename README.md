@@ -86,60 +86,6 @@ This project replicates how modern ride-hailing companies optimize supply & dema
 <p>Visualizes predicted ride intensity using an interactive NYC map.</p>
 <img src="https://raw.githubusercontent.com/rahulsangolli/uber-ride-demand-prediction/refs/heads/main/assets/1f5a7a8d-a1b8-426d-b958-0f322d6b4297.png" width="800px"/>
 
-<hr/>
-
-<h2 style="font-size:28px; font-weight:700;" align="center">🧩 Project Structure</h2>
-
-<pre style="background:#111; color:#fff; padding:20px; border-radius:8px; font-size:15px;">
-├── LICENSE
-├── Makefile               <- Makefile with commands like `make data` or `make train`
-├── README.md              <- The top-level README for developers using this project.
-│
-├── data
-│   ├── external           <- Data from third-party sources.
-│   ├── interim            <- Intermediate data that has been transformed.
-│   ├── processed          <- Final, canonical data sets for modeling.
-│   └── raw                <- Original, immutable data dump.
-│
-├── docs                   <- Sphinx documentation folder (auto-generated docs).
-│
-├── models                 <- Trained and serialized models, predictions, and summaries.
-│
-├── notebooks              <- Jupyter Notebooks.
-│                               
-│                             
-│
-├── references             <- Data dictionaries, manuals, and reference materials.
-│
-├── reports                <- Generated analysis outputs (HTML, PDF, LaTeX, etc.)
-│   └── figures            <- Generated figures and graphics used in reporting.
-│
-├── requirements.txt       <- Reproducible environment dependencies 
-│
-├── setup.py               <- Makes the project pip-installable 
-│
-├── src                    <- Source code for this project.
-│   ├── __init__.py        <- Makes src a Python package.
-│   │
-│   ├── data               <- Scripts to download or generate data.
-│   │   └── make_dataset.py
-│   │
-│   ├── features           <- Scripts to create features from raw data.
-│   │   └── build_features.py
-│   │
-│   ├── models             <- Model training and prediction scripts.
-│   │   ├── predict_model.py
-│   │   └── train_model.py
-│   │
-│   └── visualization      <- Scripts for exploratory and result visualizations.
-│       └── visualize.py
-│
-└── tox.ini                <- Configuration file for running tox tests.
-
-</pre>
-
-<hr/>
-
 <h2 style="font-size:28px; font-weight:700;" align="center">🔍 How the System Works 
 
 
