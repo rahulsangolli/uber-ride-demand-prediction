@@ -27,7 +27,7 @@ It is designed with a simple mission:
 <br/><br/>
 
 <p align="center">
-<b style="font-size:20px;">✔️ Place drivers exactly where the next ride request is likely to happen.</b>
+<b style="font-size:20px;">Place drivers exactly where the next ride request is likely to happen...</b>
 </p>
 
 <p style="font-size:16px; line-height:1.6;">
